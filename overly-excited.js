@@ -38,6 +38,7 @@ function addExcitementConditions (theWordArray) {
   for (let i = 0; i < sentence.length; i++) {
     let currentWord = sentence[i];
 
+    // 1 divided by 3 with remainder = 2)
     if (i % 3 == 2) {
       output += " " + currentWord + exclaim;
     } else {
@@ -74,4 +75,4 @@ function addExcitementChallenge (theWordArray) {
 
 addExcitementChallenge(sentence);
 
-      // output += " " + currentWord + exclaim.repeat(i / 2);
+//       // output += " " + currentWord + exclaim.repeat(i / 2);
